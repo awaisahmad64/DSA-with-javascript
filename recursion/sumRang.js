@@ -2,8 +2,8 @@
 console.log('sumrang without recursion');
       function SumRang(number) {
         let result = 0;
-        for (let index = number; number > 0; number--) {
-          result = result + number;
+        for (let index = number; index > 0; index--) {
+          result = result + index;
         }
         return result;
       }
