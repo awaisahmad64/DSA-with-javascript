@@ -3,7 +3,9 @@ const ob = {
   bar: 3,
   bax: 3,
 };
+// Object.keys function returns an array of props
 const keys = Object.keys(ob);
+// Object.values function returns an array of props values
 const values = Object.values(ob);
 const delValue = 'dxb';
 const newOb = {};
